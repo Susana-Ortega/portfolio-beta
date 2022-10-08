@@ -1,0 +1,165 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50%;
+}
+
+header{
+    background-color: #8D99AE;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8D99AE;
+    padding-bottom: 24px;
+}
+
+main{
+    position: relative
+}
+
+nav{
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 96px;
+    gap: 34px;
+    /* width: 1536px; */
+    height: 190px;
+   
+    
+    
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 38px;
+}
+
+.logo-mini{
+    width: 68px;
+    height: 110px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color:#2B2D42;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.page:hover{
+    font-weight: bolder;
+}
+
+.bye {
+    font-size: 72px;
+    width: 80%;
+    font-weight: lighter;
+    color:#2B2D42;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background: linear-gradient(112.45deg, #8D99AE 46.08%, #EDF2F4 134.55%);
+    padding: 2%; 2%; 2%; 2%;
+}
+
+.text-contacts{
+    width: 65%;
+    margin-top: 60px;
+    margin-right: 16px;
+}
+
+.reach{
+    font-size: 32px;
+    color:#2B2D42;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mail{
+    font-size: 24px;
+    color:#2B2D42;
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+
+.Linkedin{
+    font-size: 32px;
+    color:#2B2D42;
+    margin-top: 1%;
+}
+
+.Linkedin:hover{
+    font-weight: bolder;
+}
+
+.CV{
+    font-size: 24px;
+    color:#2B2D42;
+}
+
+.CV:hover{
+    font-weight: bolder;
+}
+
+.Logo{
+    width: 22%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    -webkit-animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    
+}
+
+
+@-webkit-keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }

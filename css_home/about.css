@@ -1,0 +1,155 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50%;
+}
+
+header{
+    background-color: #8D99AE;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8D99AE;
+    padding-bottom: 24px;
+}
+
+main{
+    position: relative
+}
+
+nav{
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 96px;
+    gap: 34px;
+    /* width: 1536px; */
+    height: 190px;
+   
+    
+    
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 38px;
+}
+
+.logo-mini{
+    width: 68px;
+    height: 110px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color:#2B2D42;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+line-height: 48px;
+}
+
+.page:hover{
+    font-weight: bolder;
+}
+
+.aboutbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(112.45deg, #8D99AE 46.08%, #EDF2F4 134.55%);
+    -webkit-animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.aboutbox{
+    width: 100%;
+    
+}
+
+
+
+.photo{
+    width: 571.6px;
+    height: 778.37px;
+    left: -0.6px;
+    top: 192.81px;
+    width: 33%;
+   
+
+}
+
+.presentbox{
+    width: 67%;
+}
+
+.present{
+    font-size: 28px;
+    font-weight: lighter;
+    color:#2B2D42;
+    margin-left: 32px;
+    margin-top: 230px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.Skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill{
+    font-size: 28px;
+    font-weight: lighter;
+    color:#2B2D42;
+}
+
+ul{
+    font-size: 24px;
+    font-weight: lighter;
+    color:#2B2D42;
+}
+
+@-webkit-keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
